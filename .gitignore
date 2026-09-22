@@ -1,0 +1,23 @@
+# Build output (compiled binary, object files, incremental cache, fingerprints)
+/target
+
+# rustfmt backup files
+**/*.rs.bk
+
+# Windows debug symbols
+*.pdb
+
+# macOS
+.DS_Store
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+
+# Local secrets and scan output
+.env
+/results/
+dnsrustcon.json
+dnsrustcon.csv
+dnsrustcon.txt
